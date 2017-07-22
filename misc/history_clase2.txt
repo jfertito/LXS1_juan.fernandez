@@ -1,0 +1,356 @@
+    1  su - academia 
+    2  exit
+    3  apt install terminator
+    4  pwd
+    5  cd/home
+    6  cd /home
+    7  ls -l
+    8  cd /
+    9  ls -l
+   10  cd /etc
+   11  ls
+   12  pwd
+   13  /etc/bash.bashrc
+   14  bash_history
+   15  history
+   16  cat cd
+   17  pwd
+   18  cd /
+   19  cat /
+   20  clear
+   21  pwd
+   22  cd /etc
+   23  ls -la
+   24  ls
+   25  ls -la
+   26  pwd
+   27  man
+   28  ls
+   29  man les
+   30  man grep
+   31  man -k passwd
+   32  whatis passwd
+   33  info
+   34  clear
+   35  exit
+   36  pwd
+   37  cd /
+   38  pwd
+   39  ls -l
+   40  cd /etc
+   41  ls -l
+   42  exit
+   43  vimtutor
+   44  exit
+   45  pwd
+   46  cd /
+   47  ls
+   48  ls -l
+   49  ls -hl
+   50  ls -a
+   51  pwd
+   52  ls -lA
+   53  ls .la
+   54  ls -la
+   55  pwd
+   56  ls -lha
+   57  cd /home
+   58  du -lh
+   59  df -lh
+   60  exit
+   61  eexit
+   62  exit
+   63  ps
+   64  su -
+   65  exit
+   66  id
+   67  su - 
+   68  su - soporte
+   69  clear
+   70  su - Academia
+   71  su -
+   72  clear
+   73  su - 
+   74  ls ..
+   75  su - academia
+   76  clear
+   77  su - academia
+   78  dd if=/dev/zero of=data.out count=1M bs=10
+   79  ls
+   80  cp data.out /tmp/.
+   81  ls /tmp
+   82  rm data.out
+   83  ls
+   84  ls /tmp
+   85  ls
+   86  ls /tmp
+   87  ls
+   88  exit
+   89  ls
+   90  touch mario
+   91  ls
+   92  rn mario mario.txt
+   93  rm mario
+   94  touch mario.txt
+   95  clear
+   96  ftp 10.124.18.226
+   97  su - academia
+   98  telnet 10.124.18.226
+   99  mail
+  100  echo "permiso de acceso a sudo" | mail -s "Solicitud de permiso" user1
+  101  echo "por favor, revisar backup" | mail -s "Rev Backup" user1
+  102  echo "Ocupo acceso a dev. tarro.io" | mail -s "Acceso a nuevo servidor" user1
+  103  mail
+  104  mail user1
+  105  ftp 127.0.0.1
+  106  sudo apt install ftpd
+  107  su -
+  108  su - academia 
+  109  ls
+  110  rm mario.txt
+  111  rm test123 
+  112  netstat -ltua
+  113  netstat -ltua | grep 226
+  114  telnet 10.124.18.220 22
+  115  telnet 10.124.18.220 21
+  116  telnet 10.124.18.220 23
+  117  ls
+  118  cd Descargas/
+  119  ls
+  120  rm Cap12.pdf 
+  121  rm u*
+  122  rm -r uiso
+  123  ls
+  124  rm Universal-USB-Installer-1.9.7.7.exe 
+  125  ls
+  126  cd Doc
+  127  cd ..
+  128  ls
+  129  cd Documentos/
+  130  ls
+  131  cd ..
+  132  ls
+  133  echo $VAR1
+  134  exit
+  135  echo QVAR1
+  136  echo $VAR1
+  137  OTRO_var=casa
+  138  exit
+  139  echo hola
+  140  ls /
+  141  alias my_year="cal 2007"
+  142  my_year
+  143  dpkg --get-selections | grep linux
+  144  which ls
+  145  ls -l ´which ls´
+  146  ls -l 'which ls'
+  147  ls -l `which ls`
+  148  ls -l
+  149  ls
+  150  last -l
+  151  last -x
+  152  last --system
+  153  uname
+  154  clear
+  155  VAR1=caso
+  156  echo $VAR1
+  157  VAR1=otro
+  158  echo $VAR1
+  159  echo 'Este es $VAR1 caso'
+  160  ip -4 addr
+  161  ssh ?
+  162  s?
+  163  clear
+  164  echo $VAR1
+  165  bash
+  166  export VAR1
+  167  BASH
+  168  bash
+  169  echo $otro_VAR
+  170  set
+  171  set | less
+  172  env | less
+  173  env | grep VAR
+  174  env | grep var
+  175  env | less
+  176  path
+  177  PATH
+  178  $PATH
+  179  clear
+  180  nano prog1.sh
+  181  clear
+  182  history 
+  183  nano prog1.sh 
+  184  mv prog1.sh /tmp/
+  185  cd /tmp
+  186  ls
+  187  chmod 750 prog1.sh 
+  188  ls
+  189  ls -l
+  190  ./prog1.sh 
+  191  ls
+  192  mv prog1.sh renombro_prog1.sh
+  193  cd
+  194  nano
+  195  nano renombro_prog1.sh
+  196  ls -l
+  197  cd /tmp/
+  198  nano renombro_prog1.sh 
+  199  echo $PATH
+  200  cd
+  201  ls
+  202  mkdir bin
+  203  ls
+  204  cp /tmp/renombro_prog1.sh bin/
+  205  ls bin
+  206  mv bin/renombro_prog1.sh bin/prog1
+  207  echo $hoy_es
+  208  nano .bashrc
+  209  history
+  210  ls
+  211  cd Escritorio
+  212  dc..
+  213  cd
+  214  cd /tmp/
+  215  dd if=/dev/zero of=/tmp/data.out bs=1 count=12
+  216  ls -l
+  217  split -b 2 data.out 
+  218  ls -l
+  219  cat xa*
+  220  cat xa* >data2.out
+  221  ls -l
+  222  cat data2.out 
+  223  split -n 4 data.out salidas
+  224  ls -l
+  225  cat xa* > data2.out
+  226  ls
+  227  ls -l
+  228  cd
+  229  clear
+  230  ls -l
+  231  history > /Escritorio/history_commands.logs
+  232  history > history_commands.logs
+  233  ls -l
+  234  cat history_commands.logs 
+  235  which 
+  236  which -l
+  237  which -ls
+  238  history 
+  239  history 
+  240  which -ls
+  241  ls
+  242  ls -l
+  243  cd Escritorio/
+  244  ls -l
+  245  cd
+  246  history -l
+  247  clear
+  248  cd Escritorio
+  249  ls
+  250  ls -l
+  251  rm history_commands.logs 
+  252  history > history_command.logs
+  253  clear
+  254  shutdown 
+  255  ls ..
+  256  su - academia 
+  257  w
+  258  ssh academia@10.124.18.221
+  259  w
+  260  man ln
+  261  clear
+  262  su
+  263  clear
+  264  su - academia
+  265  man fdisk 
+  266  su - academia
+  267  id
+  268  jobs
+  269  cd temp
+  270  cd /temp
+  271  ls
+  272  cd /tmp
+  273  clear
+  274  https://github.com/jfertito/LXS1_juan.fernandez.git
+  275  git clone https://github.com/jfertito/LXS1_juan.fernandez.git
+  276  history
+  277  ip -4 addr
+  278  tree
+  279  ls
+  280  find . -name Descarga
+  281  find . -name Descargas
+  282  find . -name 'Des*'
+  283  man find
+  284  clear
+  285  cd test
+  286  clear
+  287  mkdir test
+  288  cd test
+  289  vim file1
+  290  clear
+  291  cd
+  292  su - academia
+  293  git config --global user.name "Juan Fernandez G"
+  294  git config --global user.mail "juantito@gmail.com"
+  295  cat ~/.gitconfig
+  296  cd test
+  297  rm file*
+  298  mkdir src
+  299  mkdir docs
+  300  mkdir misc
+  301  mkdir tools
+  302  touch README.md
+  303  vim .gitignore
+  304  cat .gitignore 
+  305  tree
+  306  touch {docs,src,misc,tools}/ .gitignore
+  307  tree -a
+  308  touch {docs,src,misc,tools}/ .gitignore
+  309  tree -a
+  310  jobs
+  311  touch {docs,src}/ .gitignore
+  312  touch {docs,src,misc,tools}/ .gitignore
+  313  tree -a
+  314  touch {docs,src,misc,tools}/.gitignore
+  315  tree -a
+  316  clear
+  317  tree -a
+  318  echo '*.swp' >> .gitignore
+  319  cat .gitignore 
+  320  git init
+  321  tree .git
+  322  git add --all
+  323  git status
+  324  git commit -m "Inicializacion del repo de Linux"
+  325  git config --global user.email "juantito@gmail.com"
+  326  git commit -m "Inicializacion del repo de Linux"
+  327  git log
+  328  ifconfig > misc/interfaces
+  329  dmesg > misc/kernel
+  330  df -lh
+  331  df -lh > docs/espacios
+  332  tree
+  333  git status
+  334  git add misc/interfaces 
+  335  git add docs/espacios 
+  336  git status
+  337  git commit -m "agrego archivo de espacios e interfaces"
+  338  git log
+  339  cp /etc/apt/sources.list misc/
+  340  git status
+  341  vim docs/espacios 
+  342  git status 
+  343  git diff docs/espacios
+  344  git add docs/espacios 
+  345  git add misc/kernel 
+  346  git status 
+  347  git commit -m "modificacion del header de espacios y agrego archivo de kernel"
+  348  git log 
+  349  git remote add origin https://github.com/jfertito/LXS1_juan.fernandez.git
+  350  git remote -v
+  351  git push -u origin master
+  352  history
+  353  cd test/
+  354  ls
+  355  cd misc/
+  356  history > history_clase2.txt
